@@ -25,10 +25,12 @@ public class Tank {
         if (i < 0 && -i > -fuel) {
             System.out.println("1");
             System.out.println("2");
+
             System.out.println("3");
             System.out.println("4");
             i = -fuel;
         }
+            i = -fuel;
 
         else if (i > fuel)
             i = fuel;
@@ -37,7 +39,7 @@ public class Tank {
     }
 
     public void printPosition() {
-        System.out.println("The   && tank " + MODEL + "-" + number + " is at " + x + ", " + y + " now.");
+        System.out.println("The  33    && tank " + MODEL + "-" + number + " is at " + x + ", " + y + " now.");
     }
 
     public void goBackward(int i) {
