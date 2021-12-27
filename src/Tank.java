@@ -23,7 +23,8 @@ public class Tank {
 
     public void goForward(int i) {
         if (i < 0 && -i > -fuel) {
-            System.out.println("");
+            System.out.println("1");
+            System.out.println("2");
             i = -fuel;
         }
         else if (i > fuel)
